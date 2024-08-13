@@ -1,0 +1,1 @@
+Epimethean is a note taking app that draws inspiration from the myriad other such apps on the market, specifically google keep, obsidian, and tiddlywiki. It is intended to be a skill development project and professional portfolio boost.
