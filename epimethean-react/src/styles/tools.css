@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
+
+#toolbox{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+/*for selected tool in 'toolbox'*/
+#selected{
+    border: solid 2px white;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    
+    transition: all 1s ease-in-out;
+}
+
+#selected div{
+    display: flex;
+    /* align-items: center; */
+    gap: 1rem;
+}
+
+textarea:focus, input:focus{
+    outline:none;
+}
+
+/*style for note editor/adder in tools top nav div*/
+#editor{
+    /*the current active tool in the toolbox is displayed in a div that populates the tool's interface*/
+    width: 20rem;
+    min-height:7rem;
+    flex-direction: column;
+}
+
+#editor > textarea{
+    background-color: #00000000;
+    color:antiquewhite;
+    border: none;
+    width: 20rem;
+}
+
+#textEntry{
+    min-height: 5rem;
+}
+
+/*style for note search*/
+#searcher{
+    align-items: center;
+    width: 20rem;
+}
+
+#searcher > input{
+    background-color: #0000;
+    color: antiquewhite;
+    border: none;
+    width: 20rem;
+}
+
+/*style for note category browsing*/
+#browser{
+    width: 20rem;
+}
+#browser > select{
+    width: 20rem;
+    background-color: #0000;
+    color: antiquewhite;
+    border: none;
+}
